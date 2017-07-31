@@ -1,0 +1,6 @@
+---
+layout: post
+title:  "Page Title"
+image_url: /images/IMG_0837.JPG
+related_images:
+---

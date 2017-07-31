@@ -1,0 +1,33 @@
+---
+layout: page
+---
+<div class="container post-main">
+  <div class="row">
+    <div class="col-md-7 offset-md-1">
+      <img src="{{ page.image_url }}" class="img-fluid">
+    </div>
+
+    <div class="col-md-3">
+      <div class="post-content">
+        <h3>{{ page.title }}</h3>
+
+        {{ content }}
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-md-9 text-center">
+        {% for post in page.related_images %}
+          <div class="thumbnail">
+            <a href="{{ post.url }}">
+              <img src="{{ post.image_url }}" class="img-fluid">
+            </a>
+          </div>
+        {% endfor %}
+      </div>          
+    </div>
+  </div>
+</div>

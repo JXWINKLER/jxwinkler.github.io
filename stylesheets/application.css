@@ -1,0 +1,70 @@
+body {
+    font-family: "NeueHaasGrot-Text-65-Medium", Helvetica, Arial, sans-serif;
+}
+
+.entry {
+    padding: 0px;
+}
+
+.logotype {
+    position: fixed;
+    top: 50px;
+    right: 50px;
+    z-index: 100;
+}
+
+.main-nav {
+    position: fixed;
+    top: 50px;
+    left: 20px;
+    z-index: 100;
+}
+
+.main-nav a {
+    font-size: 18px;
+}
+
+.link-black a {
+    color: black;
+}
+
+.link-black a:hover {
+    color: white;
+    text-decoration: none;
+}
+
+.link-white a {
+    color: white;
+}
+
+.link-white a:hover {
+    color: black;
+    text-decoration: none;
+}
+
+.thumbnail {
+    display: inline-block;
+    width: 200px;
+}
+
+.post-main {
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+
+.post-content {
+    margin-top: 100px;
+}
+
+.instagram-link {
+    margin-top: 400px;
+    text-align: center;
+}
+
+.instagram-link a {
+    color: black;
+}
+
+.instagram-link a:hover {
+    text-decoration: none;
+}
